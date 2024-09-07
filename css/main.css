@@ -1,0 +1,149 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+  
+   
+}
+body{    
+    box-sizing: border-box;
+    height: 800px;
+    width: 100%;
+   
+}
+.main-slide{
+    height: 100%;
+    min-width:200px; 
+    margin: 80px 20px 80px 20px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+.contaner{
+    height: auto;
+    width: auto;
+    margin: 80px 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.card{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.style{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    width: 190px;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400px;
+    text-align: left;
+    margin: 20px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.icon{
+    margin: px 0;
+}
+.button{
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color:hsl(31, 77%, 52%) ;
+    border-color: hsl(0, 0%, 95%);
+    border-style: none;
+    border-radius:20px ;
+    margin: 10px 0px 50px 0px;
+}
+/* start first card */
+.card.first{
+    background-color: hsl(31, 77%, 52%);
+    width: 100%;
+}
+/* end first card */
+/* start first card */
+
+.card.secound{
+    width: 100%;
+    
+    background-color: hsl(184, 100%, 22%);
+}
+.button.secound{
+    color: hsl(184, 100%, 22%);
+}
+/* end first card */
+/* start first card */
+
+.card.third{
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+}
+.button.third{
+    color:  hsl(179, 100%, 13%);
+}
+/* end first card */
+@media 
+   (min-width: 376px)
+   
+{
+    .main-slide{
+        height: 100%;
+        width: 100%; 
+        margin: 80px 20px;
+        border-radius: 20px;
+        display: flex;  
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contaner{
+        height: auto;
+        width: fit-content;
+        margin: 80px 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        
+        
+    }
+    .card{
+        min-width: 300px ;
+        max-width: 340px;
+        height: 500px;
+    }
+    .style{
+         margin-right: 50px;
+         margin-left: 50px;
+         margin-top: 50px;
+         margin-bottom: 0;
+    
+    }
+}
